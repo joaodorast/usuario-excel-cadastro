@@ -25,7 +25,7 @@ class Usuario:
         return {"Nome": self.nome, "Email": self.email}
 
 class SistemaCadastro:
-    """Classe que representa o sistema de cadastro de usuários."""
+    """Class que representa o sistema de cadastro de usuários."""
     def __init__(self):
         self.usuarios = []
 
