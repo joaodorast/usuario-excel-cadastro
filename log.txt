@@ -172,7 +172,7 @@
 2024-10-08 22:41:30.188726: Usuário 'Pedro Oliveira' com email 'pedro.oliveira@gmail.comukfnw.com' cadastrado.
 2024-10-08 22:41:30.337203: Usuário 'Carlos Santos' com email 'carlos.santos@gmail.comqxqmo.com' cadastrado.
 2024-10-08 22:41:30.483786: Usuário 'Fernanda Silva' com email 'fernanda.silva@gmail.compymgb.com' cadastrado.
-2024-10-08 22:41:30.765298: Usuário 'Lucas Pereira' com email 'lucas.pereira@gmail.comqwble.com' cadastrado.
+2024-10-08 22:41:30.765298: Usuário 'Lucas Pereira' com email 'lucas.pereira@gmail.ksjfnsdn.com' cadastrado.
 2024-10-08 22:41:30.925298: Usuário 'Juliana Pereira' com email 'juliana.pereira@gmail.comkraps.com' cadastrado.
 2024-10-08 22:41:31.196207: Usuário 'Pedro Silva' com email 'pedro.silva@gmail.comesrbs.com' cadastrado.
 2024-10-08 22:41:31.308187: Usuário 'Pedro Lima' com email 'pedro.lima@gmail.comqbdnh.com' cadastrado.
