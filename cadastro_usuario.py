@@ -62,7 +62,7 @@ class SistemaCadastro:
             self.log_event(f"Erro ao carregar usuários: {e}")
             print(f"Erro ao carregar usuários: {e}")
 
-    def salvar_usuarios(self, formato='csv'):
+    def salvar_usuarios(self, formato='csv'):  
         """Salva a lista de usuários em um arquivo, seja CSV ou JSON."""
         try:
             if formato == 'csv':
@@ -70,7 +70,7 @@ class SistemaCadastro:
                     writer = csv.DictWriter(arquivo, fieldnames=["Nome", "Email"])
                     writer.writeheader()
                     writer.writerows(usuario.to_dict() for usuario in self.usuarios)
-            elif formato == 'json':
+            elif formato == 'json': 
                 with open(DATA_FILE_JSON, mode="w", encoding='utf-8') as arquivo:
                     json.dump([usuario.to_dict() for usuario in self.usuarios], arquivo, indent=4)
         except Exception as e:
