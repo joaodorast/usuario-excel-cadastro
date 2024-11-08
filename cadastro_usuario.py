@@ -26,14 +26,14 @@ class Usuario:
 
 class SistemaCadastro:
     """Class que representa o sistema de cadastro de usuários."""
-    def __init__(self):
+    def __init__(self):   
         self.usuarios = []
 
     def log_event(self, message):
         """Registra eventos em um arquivo de log."""
         with open(LOG_FILE, mode='a', encoding='utf-8') as log_file:
             log_file.write(f"{datetime.now()}: {message}\n")
-
+  
     def validar_email(self, email):
         """Valida o formato de um endereço de e-mail."""
         padrao = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
